@@ -6,7 +6,9 @@ body {
 h1{
 	color: #1A3A67;
 	}
-h2,
+h2{
+	color: #E674AD;
+	}
 h3,
 h4,
 h5,
@@ -37,6 +39,7 @@ h6 {
 	}
 
 .promo,
+.promo h2,
 .promo h3,
 .promo a:link,
 .promo a:visited,
@@ -59,8 +62,14 @@ h6 {
     line-height: 170px;
 }
 
+.promo-item h2 {
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .promo-item h3 {
-    font-size: 40px;
+    font-size: 30px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -88,6 +97,11 @@ h6 {
 .featured-product > a > img {
 	height: 150px;
 }
+
+.featured-product h2 {
+	color: #E674AD;
+	font-size: 20px;
+	}
 
 .featured-product h3 {
 	color: #5B8678;
@@ -184,25 +198,25 @@ a:focus {
 /* Primary Buttons */
 .btn-primary {
   color: #fff;
-  background-color: #1A3A67;
+  background-color: #E674AD;
   border-color: #fff;
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #1A3A67;
+  background-color: #E674AD;
   border-color: #fff;
 }
 .btn-primary:hover {
   color: #fff;
   background-color: #5B8678;
-  border-color: #1A3A67;
+  border-color: #E674AD;
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #1A3A67;
+  background-color: #E674AD;
   border-color: #fff;
 }
 .btn-primary:active:hover,
