@@ -6370,7 +6370,7 @@ button.close {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 15%;
+  width: 5%;
   font-size: 20px;
   color: #fff;
   text-align: center;
@@ -6395,6 +6395,11 @@ button.close {
   background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
   background-repeat: repeat-x;
+}
+.carousel-control.left, .carousel-control.right{ 
+    background: none !important;
+    filter: none !important;
+    progid:none !important;
 }
 .carousel-control:hover,
 .carousel-control:focus {
